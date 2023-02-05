@@ -16,3 +16,27 @@ npm init -yes
 Then, if your going to install a package (like Surf) `npm i surf`
 
 Once you've finished the setup be sure to check your files in-case something didn't load correctly.
+
+### `package.json` Example
+```js
+{
+  "name": "Surf.js",
+  "version": "0.0.1",
+  "description": "Node.js Library that assists with Console Colors and Sized text",
+  "keywords": [
+    "JavaScript",
+    "Node.js",
+    "language",
+    "color",
+    "surfjs",
+    "console"
+  ],
+  "homepage": "https://github.com/surfjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surfjs"
+  },
+  "main": "index.js",
+  "author": "SurfJS",
+  "license": "MIT"
+}
